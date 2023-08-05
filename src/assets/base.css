@@ -1,0 +1,29 @@
+:root {
+  --border-thickness: 0.25mm;
+  --border-color: #444;
+  --border-style: var(--border-thickness) solid var(--border-color);
+  --square-side: 18mm;
+
+  --day-font-family: Rubik;
+  --day-font-size: 9pt;
+
+  --week-font-family: Cormorant;
+  --week-font-size: 18pt;
+
+  --month-font-family: GreatVibes;
+  --month-font-size: 50pt;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  width: 11in;
+  height: 8.5in;
+}
+
+

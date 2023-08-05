@@ -1,0 +1,26 @@
+@import './base.css';
+
+#app {
+  height: 80vh;
+}
+
+@media print {
+  #app {
+    visibility: hidden;
+  }
+}
+
+@font-face {
+  font-family: 'GreatVibes';
+  src: local("GreatVibes"), url('/fonts/GreatVibes-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Cormorant';
+  src: local("Cormorant"), url('/fonts/Cormorant-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: local("Rubik"), url('/fonts/Rubik-Regular.ttf') format('truetype');
+}
